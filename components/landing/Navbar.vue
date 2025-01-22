@@ -2,7 +2,7 @@
 const menuitems = [
   {
     title: "Portfolio",
-    path: "#",
+    path: "/portfolio",
   },
   {
     title: "About",
@@ -12,6 +12,11 @@ const menuitems = [
     title: "Contact",
     path: "/contact",
   },
+  {
+    title: "Blog",
+    path: "/blog",
+  },
+
 ];
 
 const open = ref(false);

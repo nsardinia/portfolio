@@ -7,23 +7,9 @@ definePageMeta({
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Hi, I'm Nicholas</template>
-      <template v-slot:desc>Engineer, Developer, Innovator</template>
+      <template v-slot:title>Development Blog</template>
+      <template v-slot:desc>Check out my projects in-depth</template>
     </LandingSectionhead>
-
-    <div class="grid md:grid-cols-1 gap-10 mx-auto max-w-4xl mt-16">
-      <div>
-        <p class="text-lg text-left leading-relaxed text-slate-500 mt-3">
-        Here's a brief into to me, my journey, and the skills I've developed. 
-        </p>
-        <p class="text-lg text-left leading-relaxed text-slate-500 mt-3">
-        Here's how to get in touch with me professionally.
-        </p>
-      </div>
-    </div>
-
-
-
       <!-- {
         team.map((item) => (
           <div class="group">

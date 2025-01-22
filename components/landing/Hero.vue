@@ -4,7 +4,7 @@
       <img
         class="rounded-full transition-transform transform hover:scale-125"
         src="~/assets/img/nsardinia.jpeg"
-        alt="Starship starts the engine"
+        alt="Picture of Nicholas"
         loading="eager"
         format="avif"
         width="512"
@@ -13,16 +13,16 @@
     </div>
 
     <div>
-      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
-        Engineer, Developer, Creator 
+      <h1 class="text-5xl lg:text-6xl xl:text-5xl font-bold lg:tracking-tight">
+        Hi, I'm Nicholas Sardinia
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
-        I'm passionate about building the future of technology.
+        I'm an engineer passionate about building the future of technology.
         Check out my resume, portfolio, and development blog!
      </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
         <LandingLink
-          href="https://github.com/Gr33nW33n/nuxtship-template"
+          href="https://drive.google.com/file/d/1fWS5e4YItCVhdFpnJLqt9LRM_KWxTxSP/view?usp=sharing"
           target="_blank"
           rel="noopener"
           >Resume</LandingLink
@@ -31,7 +31,7 @@
           size="lg"
           styleName="outline"
           rel="noopener"
-          href="https://github.com/Gr33nW33n/nuxtship-template"
+          href="/portfolio"
           target="_blank"
           >Portfolio</LandingLink
         >
@@ -39,7 +39,7 @@
           size="lg"
           styleName="outline"
           rel="noopener"
-          href="https://github.com/Gr33nW33n/nuxtship-template"
+          href="/blog"
           target="_blank"
           >Blog</LandingLink
         >
