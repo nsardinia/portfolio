@@ -22,7 +22,7 @@
      </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
         <LandingLink
-          href="https://drive.google.com/file/d/1fWS5e4YItCVhdFpnJLqt9LRM_KWxTxSP/view?usp=sharing"
+          href="https://drive.google.com/file/d/17nx8jHmY0HmkBwziam2i4q8pMoL-S63h/view?usp=sharing"
           target="_blank"
           rel="noopener"
           >Resume</LandingLink

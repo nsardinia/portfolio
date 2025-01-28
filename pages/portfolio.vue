@@ -10,6 +10,10 @@ definePageMeta({
       <template v-slot:title>Projects</template>
       <template v-slot:desc>Here's what I've been working on</template>
     </LandingSectionhead>
+    <div class="mt-4 text-center">
+      (Coming soon! For now, check out my github page) 
+    </div>
+
       <!-- {
         team.map((item) => (
           <div class="group">
