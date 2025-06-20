@@ -13,7 +13,42 @@ definePageMeta({
     <div class="mt-4 text-center">
       (Coming soon! For now, check out my github page) 
     </div>
-
+    <div class="text-center">
+    <p class="mt-2">
+      Hacker3D
+    </p>
+    <p class="mt-2">
+      RoboMZ3 
+    </p>
+    <p class="mt-2">
+      FlexiCare
+      </p>
+      <p class="mt-2">
+      VibeNotes
+      </p>
+      <p class="mt-2">
+      Bathydrone
+      </p>
+      <p class="mt-2">
+      SubjuGator
+      </p>
+      <p class="mt-2">
+      Combat Robotics
+      </p>
+      <p class="mt-2">
+      .
+      </p>
+      <p class="mt-2">
+      .
+      </p>
+      <p class="mt-2">
+      .
+      </p>       
+      <p class="mt-2">
+      Teams and Orgs: UF-MIL, APRILab, Gator Battlebots
+      </p>
+       
+    </div>
       <!-- {
         team.map((item) => (
           <div class="group">
