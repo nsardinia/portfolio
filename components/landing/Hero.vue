@@ -39,7 +39,7 @@
           size="lg"
           styleName="outline"
           rel="noopener"
-          href="/blog"
+          href="/blogIndex"
           target="_blank"
           >Blog</LandingLink
         >
