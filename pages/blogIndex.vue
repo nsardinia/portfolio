@@ -2,16 +2,29 @@
 definePageMeta({
   layout: "landing",
 });
+const { data: posts } = await useAsyncData('posts', () =>
+  queryContent('/blog').sort({ date: -1 }).find()
+)
 </script>
 
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Development Blog</template>
-      <template v-slot:desc>Check out my projects in-depth</template>
+      <template v-slot:title>Welcome to the blog</template>
+      <template v-slot:desc>Check out some cool posts:</template>
     </LandingSectionhead>
-    <div class="mt-4 text-center">
-      (No posts yet, but check back soon for updates!) 
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <NuxtLink
+        v-for="post in posts"
+        :key="post._path"
+        :to="post._path"
+        class="block border border-blue-200 rounded-lg bg-blue-50 p-4 hover:bg-blue-100 transition"
+      >
+        <h2 class="text-xl font-semibold mb-1">{{ post.title }}</h2>
+        <p class="text-sm text-gray-600 mb-1">{{ post.description }}</p>
+        <small class="text-xs text-gray-500">{{ post.date }}</small>
+      </NuxtLink>
     </div>
       <!-- {
         team.map((item) => (
@@ -32,5 +45,6 @@ definePageMeta({
           </div>
         ))
       } -->
+
   </LandingContainer>
 </template>
