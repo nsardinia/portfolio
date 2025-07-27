@@ -10,7 +10,7 @@ const menuitems = [
   },
   {
     title: "Blog",
-    path: "/blog",
+    path: "/blogIndex",
   },
 
 ];
