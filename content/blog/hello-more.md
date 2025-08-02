@@ -1,7 +1,8 @@
 ---
-title: "My Second Blog Post"
-description: "This is LETS GO MORE STUFF"
+title: "Intro to Hacker3D"
+description: "Summer DSA Project"
 date: 2025-07-27
+thumbnail: /images/algo3d.png
 ---
 
-And so it begins. . . And so it shall end /s.
+New project coming soon!

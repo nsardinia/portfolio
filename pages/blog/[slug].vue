@@ -1,10 +1,14 @@
 <template>
-  <article>
-    <h1>{{ post.title }}</h1>
-    <ContentRenderer :value="post" />
-    <p>Slug: {{ $route.params.slug }}</p>
-  </article>
-</template>
+  <LandingNavbar></LandingNavbar>
+ <div class="max-w-3xl mx-auto px-6 py-10 prose prose-lg prose-gray">
+    <article>
+      <h1>{{ post.title }}</h1>
+      <ContentRenderer :value="post" />
+    </article>
+  </div>
+  <LandingFooter></LandingFooter>
+
+  </template>
 
 <script setup>
 const { params } = useRoute()

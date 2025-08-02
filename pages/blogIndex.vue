@@ -19,8 +19,8 @@ const { data: posts } = await useAsyncData('posts', () =>
         v-for="post in posts"
         :key="post._path"
         :to="post._path"
-        class="block border border-blue-200 rounded-lg bg-blue-50 p-4 hover:bg-blue-100 transition"
       >
+      <img :src="post.thumbnail" alt="Description" style="max-width: 120; width: 100%; height: auto; display: block; margin: 0 auto;" />
         <h2 class="text-xl font-semibold mb-1">{{ post.title }}</h2>
         <p class="text-sm text-gray-600 mb-1">{{ post.description }}</p>
         <small class="text-xs text-gray-500">{{ post.date }}</small>
