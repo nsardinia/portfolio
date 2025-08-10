@@ -5,4 +5,4 @@ date: 2025-07-27
 thumbnail: /images/algo3d.png
 ---
 
-New project coming soon!
+New project coming soon! Let's get the workflow up and running. . . 
