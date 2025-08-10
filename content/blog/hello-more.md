@@ -7,4 +7,4 @@ thumbnail: /images/algo3d.png
 
 New project coming soon! Let's get the workflow up and running. . . 
 
-Here we are now.
+Here we are now. There we are then.
