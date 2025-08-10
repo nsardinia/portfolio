@@ -14,7 +14,7 @@
 
     <div>
       <h1 class="text-5xl lg:text-6xl xl:text-5xl font-bold lg:tracking-tight">
-        Hi, I'm Nicholas Sardinia
+        Nicholas Sardinia
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
         I'm an engineer passionate about building the future of technology.

@@ -7,7 +7,7 @@ definePageMeta({
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Hi, I'm Nicholas</template>
+      <template v-slot:title>Nicholas Sardinia</template>
       <template v-slot:desc>Engineer, Developer, Innovator</template>
     </LandingSectionhead>
 
