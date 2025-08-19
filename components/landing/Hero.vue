@@ -1,9 +1,9 @@
 <template>
   <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
-    <div class="p-24 md:order-1 hidden md:block">
+    <div class="p-24 hidden md:block">
       <img
-        class="rounded-full transition-transform transform hover:scale-125"
-        src="~/assets/img/nsardinia.jpeg"
+        class="transition-tr\\wsl.localhost\Ubuntu-24.04ansform transform hover:scale-125"
+        src="~/assets/img/nsardinia2.png"
         alt="Picture of Nicholas"
         loading="eager"
         format="avif"
@@ -17,31 +17,23 @@
         Nicholas Sardinia
       </h1>
       <p class="text-lg mt-4 text-slate-600 max-w-xl">
-        I'm an engineer passionate about building the future of technology.
+        an engineer passionate about building the future of technology.
         Check out my resume, portfolio, and development blog!
      </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
-        <LandingLink
+        <LandingLink class="basis-2/3"
           href="https://drive.google.com/file/d/17nx8jHmY0HmkBwziam2i4q8pMoL-S63h/view?usp=sharing"
           target="_blank"
           rel="noopener"
           >Resume</LandingLink
         >
-        <LandingLink
+        <LandingLink class="basis-1/3"
           size="lg"
           styleName="outline"
           rel="noopener"
-          href="/portfolio"
+          href="/contact"
           target="_blank"
-          >Portfolio</LandingLink
-        >
-        <LandingLink
-          size="lg"
-          styleName="outline"
-          rel="noopener"
-          href="/blogIndex"
-          target="_blank"
-          >Blog</LandingLink
+          >Contact</LandingLink
         >
       </div>
     </div>
