@@ -1,8 +1,8 @@
 <template>
-  <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
-    <div class="p-24 hidden md:block">
+  <main class="grid lg:grid-cols-2 place-items-center">
+    <div class="p-24">
       <img
-        class="transition-tr\\wsl.localhost\Ubuntu-24.04ansform transform hover:scale-125"
+        class="transition-tr\\wsl.localhost\Ubuntu-24.04ansform transform scale-125 hover:scale-150"
         src="~/assets/img/nsardinia2.png"
         alt="Picture of Nicholas"
         loading="eager"
