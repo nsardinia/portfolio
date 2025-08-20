@@ -38,4 +38,6 @@
       </div>
     </div>
   </main>
+  <contactSpinner></contactSpinner>
+
 </template>
