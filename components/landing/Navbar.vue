@@ -186,16 +186,6 @@ const isOpen = ref(false);
                 d="M6 18L18 6M6 6l12 12"/>
         </svg>
       </button>
-        <div class="flex-1 justify-center mt-4">
-            <span class="inline-flex h-16 w-16 items-center justify-center rounded-full 
-                     bg-black text-white font-extrabold text-2xl 
-                     transition-colors duration-300 hover:bg-purple-700">
-                  NS
-            </span>
-        </div>
-      <div>
-        <div class="p-2 text-gray-800 focus:outline-none relative z-50 flex-1"></div>
-      </div>
     </div>
 
 
